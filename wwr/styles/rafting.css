@@ -1,0 +1,545 @@
+/* rafting css*/
+
+/*Import google fonts*/
+
+/* Abel font CSS*/
+
+.abel-regular {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Anton Font CSS*/
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Define CSS variables */
+:root {
+    --primary-color: #386641;
+    --secondary-color: #a7c957;
+    --font-family: 'Anton', sans-serif;
+}
+
+/* General styling */
+body {
+    font-family: var(--font-family);
+    color: var(--primary-color);
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 0%;
+    padding-bottom: 2px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--secondary-color);
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Styling for social media links */
+.sociallinks {
+    text-decoration: none;
+}
+
+/*r emoving underlines from all links */
+a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.rafting-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #386641;
+    background-color: #a7c957;
+    padding: 20px;
+}
+
+.h1 {
+    position: absolute;
+    top: 20%;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.head-title {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-style: dashed;
+    border-top-style: dashed;
+    border-width: 3px;
+    padding: 1rem;
+
+}
+
+.article {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 80%;
+}
+
+.hero-content article p {
+    float: left;
+    width: 70%;
+}
+
+.hero-content article img {
+    float: right;
+    width: 30%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #386641;
+}
+
+nav {
+    text-align: right;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    display: inline-block;
+    padding: 40px;
+    text-decoration: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 40px;
+}
+
+.Logo img {
+    width: 100px;
+}
+
+.cx {
+
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    float: right;
+    border: 2px solid #a7c957;
+    position: relative;
+
+}
+
+.text-box {
+    box-sizing: content-box;
+    padding: 1rem;
+}
+
+.text-box,
+p,
+section {
+    text-align: center;
+    padding: 5px;
+}
+
+.header-adventure {
+
+    padding: 1rem;
+    border-bottom-style: dashed;
+    border-top-style: dashed;
+    border-width: 3px;
+    border-color: #a7c957;
+
+}
+
+.adventure-pics {
+
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+
+}
+
+.footerid {
+    background-color: #386641;
+    margin: 10px;
+    padding-top: 2em;
+    color: #fff;
+}
+
+.footerid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+.name {
+    background-color: #386641;
+    margin: 10px;
+    padding-top: 2em;
+    color: #fff;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+.sociallinks {
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.sociallinks img {
+    width: 40px;
+}
+
+.copy {
+    display: flex;
+    align-items: center;
+}
+
+.history-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.adventure-pics {
+    padding: 20px;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.sociallinks a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Form moifications */
+
+.meet {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+h3 {
+    color: #386641;
+}
+
+.meet {
+    width: 100%;
+    height: 8%;
+    color: #386641;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+
+}
+
+.box {
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    box-shadow: -1px 0 10px #000000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box img {
+    width: 300px;
+    height: 200px;
+}
+
+.company-info {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.map {
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+}
+
+form {
+    height: 850px;
+    margin: 1rem;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: #386641;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    height: 60px;
+}
+
+button:hover {
+    background-color: #a7c957;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    color: #333;
+
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 1.5rem;
+    font-size: 1.1rem;
+}
+
+legend h1 {
+    align-items: center;
+    text-align: center;
+}
+
+.group1 {
+    grid-template-columns: 1fr 2fr;
+}
+
+input,
+textarea {
+    width: 100%;
+}
+
+.rafting-banner {
+    width: 1350px;
+    display: block;
+    position: relative;
+}
+
+/*.banner-text {
+  position:absolute;  
+  top: 65%;
+  color: #fff;
+  padding: 10px;
+ 
+}
+
+
+.banner-text h4 {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+.banner-text {
+  width: 100%;
+  height: 50%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  text-align: center;
+  opacity: 0;
+  transition: 0.6s;
+
+}
+
+
+.banner-text:hover {
+  opacity: 1;
+} */
+
+.boxx {
+    width: 400px;
+    height: 300px;
+    background-color: #386641;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
+
+.boxx {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.company-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.map iframe {
+    width: 100%;
+    display: inline;
+}
+
+.adventure-container {
+    margin: 20px;
+}
+
+header {
+    height: 150px;
+}
+
+.choice {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-items: left;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.option label {
+    white-space: nowrap;
+    /* Prevent the label from wrapping */
+    margin-right: 10px;
+    /* Adjust the spacing between the label and radio button */
+}
+
+.option input[type="radio"] {
+    margin: 10px;
+}
+
+.banner-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
